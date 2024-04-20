@@ -14,7 +14,7 @@
     border: 0;
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 35px;
+    padding: 15px 25px;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -91,8 +91,8 @@
 .feature-option {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-evenly;
+
 }
 
 .img-back1 {
@@ -125,7 +125,7 @@
     gap: 50px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 60vw;
+    width: 72vw;
     padding: 50px;
     justify-content: space-evenly;
 }
@@ -176,13 +176,70 @@
 
 .instagram-pic {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin: 50px;
+    gap: 40px;
+    margin: 50px auto;
+    
+
 }
 
 .instagram-item {
     width: 342px;
     height: 396px;
+}
+
+.subscription {
+    margin: 0px;
+}
+
+.subscription-container {
+    background-image: url("../flowershop/Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 92%;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.form-input {
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding: 15px;
+    width: 30%;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+footer .section-title {
+    color: #FFF;
+}
+
+footer .section-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    margin: 0px auto;
+    width: 40%;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.rights {
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
