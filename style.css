@@ -162,5 +162,27 @@
 .sign-up-info {
     width: 40%;
     text-align: center;
+}
 
+.instagram-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.instagram-info p {
+    width: 40%;
+    margin: 0px auto;
+}
+
+.instagram-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px;
+}
+
+.instagram-item {
+    width: 342px;
+    height: 396px;
 }
