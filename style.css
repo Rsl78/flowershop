@@ -1,4 +1,6 @@
+/* common design */
 * {
+    font-family: Lato;
     margin: 0;
     padding: 0;
 }
@@ -9,12 +11,31 @@
     background: #E55473;
     padding: 20px 35px;
     color: #FFF;
-    font-family: Lato;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
 }
 
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+
+
+/* banner design */
 .header-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -32,7 +53,6 @@
 
 .header-title {
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
@@ -40,14 +60,69 @@
 
 .header-description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     padding: 30px 0px;
+    line-height: 30px;
     /* 166.667% */
 }
 
 .header-img {
     height: 90vh;
 }
+
+/* Featured flower */
+
+.featured-flower {
+    text-align: center;
+}
+
+.featured-head {
+    margin: 50px auto;
+    width: 580px;
+}
+
+.feature-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-back1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 60px 20px 0px 20px;
+    height: 428px;
+    width: 310px;
+}
+
+.img-back2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 60px 20px 0px 20px;
+    height: 428px;
+    width: 310px;
+}
+
+.img-back3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 60px 20px 0px 20px;
+    height: 428px;
+    width: 310px;
+}
+
+.featured-facilities {
+    margin: 50px auto;
+    display: flex;
+    gap: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 60vw;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+/* sign up section */
