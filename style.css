@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+.color-primary {
+    color: #E55473;
+
+}
+
 .btn-primary {
     border: 0;
     border-radius: 8px;
@@ -126,3 +131,36 @@
 }
 
 /* sign up section */
+
+.sign-up {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 30px;
+    gap: 100px;
+}
+
+.sign-up-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.sign-up .section-description {
+    margin: 20px 0px;
+}
+
+
+.sign-up-info {
+    width: 40%;
+    text-align: center;
+
+}
